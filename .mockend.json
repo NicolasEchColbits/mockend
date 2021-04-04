@@ -1,39 +1,26 @@
 {
-  "project_info": {
-    "project_number": "1010610963517",
-    "project_id": "colbits-diagostic-tool",
-    "storage_bucket": "colbits-diagostic-tool.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1010610963517:android:804b3a0a817b49beba1654",
-        "android_client_info": {
-          "package_name": "com.example.colbits_diagnostic_tool_app"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1010610963517-4hg9sk9o7o8osnbprd2hcvh6dnf5d54b.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAlnHUHypp5xI-XOqwt-8YpPOwAfWUDyGU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1010610963517-4hg9sk9o7o8osnbprd2hcvh6dnf5d54b.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "configuration_version": "1"
+	"dev_eui": "2122232425010030",
+	"freq": "926900000",
+	"data_rate": {
+		"spreading_factor": "12",
+		"band_width": "125",
+		"coding_rate": "4/5",
+		"dr_index": "5"
+	},
+	"link_gw": "GW_TRES_CRUCES",
+	"gws_in_range": 2,
+	"gws_in_range_statistics": [
+		{
+			"GW_NAME": "GW_TRES_CRUCES",
+			"RSSI": "-115",
+			"SNR": "-11.8",
+			"QUALITY": 2  
+		},
+		{
+			"GW_NAME": "GW_LIMONAR",
+			"RSSI": "-112",
+			"SNR": "-12.5",
+			"QUALITY": 1
+		}
+	]
 }
