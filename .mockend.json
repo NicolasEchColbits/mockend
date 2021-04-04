@@ -1,13 +1,39 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "project_info": {
+    "project_number": "1010610963517",
+    "project_id": "colbits-diagostic-tool",
+    "storage_bucket": "colbits-diagostic-tool.appspot.com"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010610963517:android:804b3a0a817b49beba1654",
+        "android_client_info": {
+          "package_name": "com.example.colbits_diagnostic_tool_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010610963517-4hg9sk9o7o8osnbprd2hcvh6dnf5d54b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlnHUHypp5xI-XOqwt-8YpPOwAfWUDyGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010610963517-4hg9sk9o7o8osnbprd2hcvh6dnf5d54b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
 }
